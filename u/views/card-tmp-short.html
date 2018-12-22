@@ -1,0 +1,105 @@
+<!-- Card Template -->
+
+<script id="card-tmp" type="text/template">
+
+  <div class="card" id="{{card_id}}" style="margin: 0 auto 30px;">
+
+    <!-- Card Body -->
+    <div class="card-body row">
+
+        <!-- Card Icon -->
+        <div class="card-icon col-3 col-md-2">
+          <a href="{{card_link}}">
+            <div class="rounded" style="background: url('{{card_icon}}') 100% 100% no-repeat; background-position: center; background-size: contain; width: 100%; height: 100%;" ></div>
+          </a>
+        </div>
+
+        <!-- Card Body -->
+        <div class="col">
+
+          <!-- Card Body Header -->
+          <div class="row">
+
+            <!-- Name & Username -->
+            <div class="col-7 col-md-9">
+              <h5 class="card-title">{{card_name}}</h5>
+              <h6 class="card-subtitle mb-2 text-muted">{{card_username}}</h6>
+            </div>
+
+            <!-- Toolbar -->
+            <div class="toolbar col">
+
+                <button class="dropdown-toggle btn btn-sm btn-outline-secondary" name="button" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-share-square"></i></button>
+
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" style="color: gray;" onclick="CopyLink('{{card_id}}')" href="#">
+                    <div class="row">
+                      <div class="col-2">
+                        <i class="fas fa-copy"></i>
+                      </div>
+                      <div class="col">
+                        Copy
+                      </div>
+                    </div>
+                  </a>
+    <!--
+                  <div class="dropdown-divider"></div>
+
+                  <a class="dropdown-item" style="color: gray;" href="#">
+
+                    <div class="row">
+                      <div class="col-2">
+                        <i class="fas fa-envelope"></i>
+                      </div>
+                      <div class="col">
+                        Email
+                      </div>
+
+                    </div>
+                  </a>
+
+                  <a class="dropdown-item" style="color: gray;" href="#">
+
+
+                    <div class="row">
+                      <div class="col-2">
+                        <i class="fab fa-facebook-f"></i>
+                      </div>
+                      <div class="col">
+                        Facebook
+                      </div>
+
+                    </div>
+                  </a>
+
+                  <a class="dropdown-item" style="color: gray;" href="#">
+
+                    <div class="row">
+                      <div class="col-2">
+                        <i class="fab fa-twitter"></i>
+                      </div>
+                      <div class="col">
+                        Twitter
+                      </div>
+
+                    </div>
+                  </a> -->
+
+                </div>
+
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+    </div>
+
+    <!-- Card Footer -->
+    <!-- <div class="card-footer text-center" style="padding: 0; color:gray;"><i class="fa fa-chevron-down"></i></div> -->
+
+  </div>
+
+</script>

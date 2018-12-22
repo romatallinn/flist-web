@@ -1,0 +1,17 @@
+<!-- Category Template -->
+
+<script id="category-tmp" type="text/template">
+
+  <div class="card-block">
+
+    <!-- Category Btn -->
+    <div class="text-center">
+      <button type="button" name="button" onclick="ToggleCategory( '{{category_id}}' )" class="group-btn btn btn-primary" style="margin-bottom: 10px;"> <p class="float-left" style="margin: 0;">{{title}}</p> <p class="float-right category-state-0" style="margin: 0;"><i class="fa fa-chevron-down"></i></p> </button>
+    </div>
+
+    <!-- Category Content -->
+    <div class="text-dark" id="{{category_id}}" style="display: none;"></div>
+
+  </div>
+
+</script>

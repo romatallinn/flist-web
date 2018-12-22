@@ -1,0 +1,44 @@
+// Styling for the download section
+section.webprofile {
+    position: relative;
+    padding: 100px 0;
+    h3 {
+        font-size: 50px;
+        margin-top: 0;
+    }
+
+    p {
+      margin-top: 10%;
+    }
+
+    p.link-template {
+      white-space: nowrap;
+
+      img {
+        width: 50px;
+        margin-right: 10px;
+      }
+
+      @media(max-width: 400px) {
+        font-size: 14px;
+
+        img {
+          width: 15%;
+        }
+      }
+
+    }
+
+
+    .device-container,
+    .feature-item {
+        max-width: 325px;
+        margin: 0 auto;
+    }
+    .device-container {
+        margin-bottom: 100px;
+        @media(min-width: 992px) {
+            margin-bottom: 0;
+        }
+    }
+}
