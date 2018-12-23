@@ -25,6 +25,7 @@ The landing page is based on a great looking web app theme [New Age](https://git
 ### Other Repos of Flist
    - [IOS App Repo](https://github.com/romatallinn/flist-ios.git) -- the repository for the IOS application project.
    - [Firebase Cloud Functions Repo](https://github.com/romatallinn/flist-firebase-funcs.git) -- the repository for the custom backend scripts for more delicate and custom way of handling the events in safe and controlled environment.
+   - [Extras](https://github.com/romatallinn/flist-extras.git) -- the repository for the extra material of Flist. Mainly focuses on the structure of the database and the storage, but also includes some media and press content.
 
 
 ### License
