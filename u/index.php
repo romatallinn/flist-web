@@ -39,7 +39,7 @@
     <?php
           require_once "views/category-tmp.html";
 
-          require_once "views/card-tmp-short.html";
+          require_once "views/card-tmp.html";
     ?>
 
     <!-- Main -->

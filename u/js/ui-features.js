@@ -4,7 +4,7 @@ function ToggleCategory(category_id) {
 
 function CopyLink(card_id) {
 
-  var link = $("#" + card_id + " .link");
+  var link = $("#" + card_id + " #card-link");
   var text = link.attr("href");
 
   var dummy = document.createElement("input");
