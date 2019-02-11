@@ -144,10 +144,17 @@
 
   </div>
 
+  <div class="powered-by">
 
-  <a href="https://flist.me" class="powered-by text-secondary">
-    <i>Powered By <b>Flist</b></i>
-  </a>
+    <p class="text-primary">
+      <i>Powered By <b>Flist</b></i>
+    </p>
+
+    <a href="/" class="btn btn-sm btn-outline-primary">
+      Sign Up
+    </a>
+
+  </div>
 
 
 </div>
