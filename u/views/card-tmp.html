@@ -2,22 +2,25 @@
 
 <script id="card-tmp" type="text/template">
 
+  <!-- Card Entity -->
   <div class="card" id="{{card_id}}">
 
     <div class="row" style="width:100%; margin: auto;">
 
+      <!-- Card Icon, Name & Username  -->
       <div class="col">
 
         <a href="{{card_link}}" id="card-link" target="_blank" style="display:block">
           <div class="row">
 
+            <!-- Card Icon -->
             <div class="card-icon col-5 col-md-2">
               <div class="rounded" style="background: url('{{card_icon}}') 100% 100% no-repeat; background-position: center; background-size: contain; height:100%;" ></div>
             </div>
 
+            <!-- Name & Username -->
             <div class="card-bdy col">
 
-              <!-- Name & Username -->
                 <h5 class="card-title">{{card_name}}</h5>
                 <h6 class="card-subtitle mb-2 text-muted">{{card_username}}</h6>
 
@@ -31,27 +34,34 @@
 
 
 
-
-      <div class="card-toolbar col-3 col-md-1">
+      <!-- Card Toolbar  -->
+      <div class="card-toolbar col-4 col-md-2">
 
         <div class="card-aligner">
-          <div class="">
+          <div>
 
-            <button class="dropdown-toggle btn btn-sm btn-outline-secondary" name="button" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-share-square"></i></button>
+            <div class="btn-group" role="group" aria-label="">
 
-            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <button class="dropdown-item" style="color: gray;" onclick="CopyLink('{{card_id}}')">
+              <!-- Card Help (about) -->
+              <button class="btn btn-sm btn-outline-secondary btn-help" name="button" type="button" data-placement="left" data-toggle="popover" data-container="body" data-content="{{card_description}}"><b>?</b></button>
 
-                <div class="row">
-                  <div class="col-2">
-                    <i class="fas fa-copy"></i>
+              <!-- Card Dropdown (share) -->
+              <button class="dropdown-toggle btn btn-sm btn-outline-secondary" name="button" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa fa-share-square"></i></button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                <button class="dropdown-item" style="color: gray;" onclick="CopyLink('{{card_id}}')">
+
+                  <div class="row">
+                    <div class="col-2">
+                      <i class="fas fa-copy"></i>
+                    </div>
+                    <div class="col">
+                      Copy
+                    </div>
                   </div>
-                  <div class="col">
-                    Copy
-                  </div>
-                </div>
 
-              </button>
+                </button>
+              </div>
+
             </div>
 
           </div>
@@ -61,6 +71,7 @@
       </div>
 
     </div>
+
 
 
   </div>

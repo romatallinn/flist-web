@@ -147,10 +147,11 @@ var loadUsersCards = function() {
 
         var template = $("#card-tmp").html();
         var html = Mustache.render(template, data);
+        var $selectors;
 
         if ( $("#category-id-" + category_id).length ) {
 
-          $("#category-id-" + category_id).append(html);
+          $selectors = $(html).appendTo("#category-id-" + category_id);
 
         } else {
 
@@ -165,9 +166,11 @@ var loadUsersCards = function() {
 
           }
 
-          $("#category-id-0").append(html);
+          $selectors = $(html).appendTo("#category-id-0");
 
         }
+
+        $selectors.find('[data-toggle="popover"]').popover();
 
       });
 
