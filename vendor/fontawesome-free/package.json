@@ -2,7 +2,7 @@
   "_args": [
     [
       "@fortawesome/fontawesome-free@5.3.1",
-      "/Applications/MAMP/htdocs/flist-landing"
+      "/Users/rsirokov/Flist/flist-web"
     ]
   ],
   "_from": "@fortawesome/fontawesome-free@5.3.1",
@@ -27,7 +27,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/@fortawesome/fontawesome-free/-/fontawesome-free-5.3.1.tgz",
   "_spec": "5.3.1",
-  "_where": "/Applications/MAMP/htdocs/flist-landing",
+  "_where": "/Users/rsirokov/Flist/flist-web",
   "author": {
     "name": "Dave Gandy",
     "email": "dave@fontawesome.com",
