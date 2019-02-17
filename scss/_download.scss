@@ -6,10 +6,13 @@ section.download {
         font-size: 50px;
         margin-top: 0;
     }
+    .download-other {
+      margin-top: 70px;
+    }
     .badges {
         .badge-link {
             display: block;
-            margin-bottom: 25px;
+            margin-bottom: 60px;
             &:last-child {
                 margin-bottom: 0;
             }

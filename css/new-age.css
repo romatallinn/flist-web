@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - New Age v5.0.0 (https://startbootstrap.com/template-overviews/new-age)
- * Copyright 2013-2018 Start Bootstrap
+ * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-new-age/blob/master/LICENSE)
  */
 
@@ -215,9 +215,13 @@ section.download h2 {
   margin-top: 0;
 }
 
+section.download .download-other {
+  margin-top: 70px;
+}
+
 section.download .badges .badge-link {
   display: block;
-  margin-bottom: 25px;
+  margin-bottom: 60px;
 }
 
 section.download .badges .badge-link:last-child {
@@ -379,7 +383,7 @@ section.contact {
 
 section.contact h2 {
   margin-top: 0;
-  margin-bottom: 25px;
+  margin-bottom: 60px;
 }
 
 section.contact h2 i {
@@ -491,7 +495,7 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 form.signup {
   font-size: 12px;
   width: 95%;
-  margin: 60px auto 0;
+  margin: 0 auto 25px;
   font-family: 'Lato', sans-serif;
   color: #FDFCFB;
   text-align: center;

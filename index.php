@@ -108,7 +108,10 @@
               <a class="badge-link" href="https://itunes.apple.com/no/app/flist-me/id1371495141?mt=8" target="_blank"><img src="img/app-store-badge.svg" alt=""></a>
             </div>
 
-            <!-- <?php include "etc/signup-form.php"; ?> -->
+            <div class="download-other">
+              <p>Other platforms <i>(Web, Android)</i> are coming soon! Sign up right now!</p>
+              <?php include "etc/signup-form.php"; ?>
+            </div>
 
           </div>
         </div>
